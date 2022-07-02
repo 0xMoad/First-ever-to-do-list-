@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>To Do List</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
     <h1>To Do List</h1>
     <div class="container">
-        <input id="inputField" type="text" name = "inputField" required><button id="addToDo">+</button>
-        <div class="to-dos" id="toDoContainer">
+        <input id="inputField" type="text" name = "inputField" required><button id="addToDo" class = "btn">+</button><button id = "reset" class = "btn">RESET</button>
+        <div class="to-dos" id="toDoContainer" class = "animate__backInDown">
         </div>
     </div>
     <script src="app.js"></script>
