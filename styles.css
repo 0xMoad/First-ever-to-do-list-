@@ -5,7 +5,15 @@ html, body {
     background-color: black;
     color: orange;
     user-select: none;
+    
 }
+
+h1{
+    position: relative;
+    left: 89px;
+    font-size: 50px;
+}
+
 
 .container {
     width: 360px;
@@ -21,7 +29,7 @@ html, body {
     vertical-align: middle;
 }
 
-#addToDo {
+.btn {
     height: 50px;
     width: 50px;
     border: 1px solid black;
@@ -34,18 +42,12 @@ html, body {
     margin-top: 5px;
     cursor: pointer;
     font-size: 20px;
-   
-    
-    
-    
 }
 
-.to-dos {
-    margin-top: 25px;
-    
-} 
+
+
   
-#addToDo {
+.btn {
     background: #444;
     background: linear-gradient(top, #555, #333);
     border: 5px solid orange;
@@ -55,4 +57,11 @@ html, body {
     font-family: Helvetica, Arial, Sans-serif;
     font-size: 1em;
     transform-origin: 50% 5em;
+  }
+
+  #reset {
+    width: auto;
+    position: relative;
+    left: 360px;
+    bottom: 50px;
   }
